@@ -1,0 +1,29 @@
+fcontext
+version 1.64.0
+
+               Copyright Nick Vrvilo 2017.
+           https://github.com/DaoWen/fcontext/
+Distributed under the Boost Software License, Version 1.0.
+    (See accompanying file LICENSE_1_0.txt or copy at
+          http://www.boost.org/LICENSE_1_0.txt)
+
+A simple, high-performance library providing cooperative user-level threads,
+or fibers, with a basic C-language API, derived from the fiber-context
+implementation in the Boost.Context project, version 1.64.0.
+Note that the version number of this fcontext library simply tracks the
+corresponding Boost.Context version number.
+
+To compile, link against the corresponding versions of jump, make and ontop
+assembly files for your platform from the Boost.Context GitHub repository:
+https://github.com/boostorg/context/tree/boost-1.64.0/src/asm
+
+The function prototypes are based on those in fcontext.hpp, available at
+which includes the following obligatory copyright notice:
+
+             Copyright Oliver Kowalke 2009.
+Distributed under the Boost Software License, Version 1.0.
+    (See accompanying file LICENSE_1_0.txt or copy at
+          http://www.boost.org/LICENSE_1_0.txt)
+
+The original fcontext.hpp source file is available on GitHub:
+https://github.com/boostorg/context/blob/boost-1.64.0/include/boost/context/detail/fcontext.hpp
